@@ -5,7 +5,7 @@ pipeline {
         stage('Clean') {
             steps {
                 echo 'Hello Repo'                              
-                bat "mvn clean -f my-app"
+                bat "mvn clean"
             }
         }
          stage('Build') {
